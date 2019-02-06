@@ -16,8 +16,16 @@ class IntroVC: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func definePressed(_ sender: Any) {
+    @IBAction func defineTapped(_ sender: Any) {
+        print("define tapped")
         performSegue(withIdentifier: "toDefineVC", sender: nil)
     }
+    
+    @IBAction func measureTapped(_ sender: Any) {
+        print("measure tapped")
+        performSegue(withIdentifier: "toMeasureVC", sender: nil)
+    }
+    
+    
     
 }

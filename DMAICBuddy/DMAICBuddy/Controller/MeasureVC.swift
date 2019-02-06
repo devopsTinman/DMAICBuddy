@@ -1,5 +1,5 @@
 //
-//  DefineVC.swift
+//  MeasureVC.swift
 //  DMAICBuddy
 //
 //  Created by Allbee, Eamon on 1/23/19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DefineVC: UIViewController {
+class MeasureVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,9 +16,9 @@ class DefineVC: UIViewController {
         // Do any additional setup after loading the view.
     }
 
- 
-    @IBAction func btnClosePressed(_ sender: Any) {
+    @IBAction func closeBtnPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
+
 }

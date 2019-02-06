@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7185530521FB39450027458C /* AnalyzeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7185530421FB39450027458C /* AnalyzeVC.swift */; };
+		719CF12B21F95BC300EBC84E /* MeasureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CF12A21F95BC300EBC84E /* MeasureVC.swift */; };
 		71D174E521F8DF0D001A0450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D174E421F8DF0D001A0450 /* AppDelegate.swift */; };
 		71D174EA21F8DF0D001A0450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D174E821F8DF0D001A0450 /* Main.storyboard */; };
 		71D174EC21F8DF0D001A0450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D174EB21F8DF0D001A0450 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7185530421FB39450027458C /* AnalyzeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeVC.swift; sourceTree = "<group>"; };
+		719CF12A21F95BC300EBC84E /* MeasureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureVC.swift; sourceTree = "<group>"; };
 		71D174E121F8DF0D001A0450 /* DMAICBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMAICBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D174E421F8DF0D001A0450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71D174E921F8DF0D001A0450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 			children = (
 				71D174FA21F8E09C001A0450 /* IntroVC.swift */,
 				71D1750221F908C9001A0450 /* DefineVC.swift */,
+				719CF12A21F95BC300EBC84E /* MeasureVC.swift */,
+				7185530421FB39450027458C /* AnalyzeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,7 +194,9 @@
 				71D174FF21F903DC001A0450 /* CreatorLabel.swift in Sources */,
 				71D1750521F90B68001A0450 /* DetailBorderView.swift in Sources */,
 				71D1750121F9049B001A0450 /* ProcessButton.swift in Sources */,
+				719CF12B21F95BC300EBC84E /* MeasureVC.swift in Sources */,
 				71D174E521F8DF0D001A0450 /* AppDelegate.swift in Sources */,
+				7185530521FB39450027458C /* AnalyzeVC.swift in Sources */,
 				71D174FB21F8E09C001A0450 /* IntroVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

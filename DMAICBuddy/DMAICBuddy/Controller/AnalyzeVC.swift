@@ -1,14 +1,14 @@
 //
-//  DefineVC.swift
+//  AnalyzeVC.swift
 //  DMAICBuddy
 //
-//  Created by Allbee, Eamon on 1/23/19.
+//  Created by Allbee, Eamon on 1/25/19.
 //  Copyright © 2019 Allbee, Eamon. All rights reserved.
 //
 
 import UIKit
 
-class DefineVC: UIViewController {
+class AnalyzeVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,8 +16,8 @@ class DefineVC: UIViewController {
         // Do any additional setup after loading the view.
     }
 
- 
-    @IBAction func btnClosePressed(_ sender: Any) {
+
+    @IBAction func backBtnPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
     }
     
