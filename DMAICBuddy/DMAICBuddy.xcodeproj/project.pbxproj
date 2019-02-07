@@ -19,6 +19,7 @@
 		71D1750121F9049B001A0450 /* ProcessButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1750021F9049B001A0450 /* ProcessButton.swift */; };
 		71D1750321F908C9001A0450 /* DefineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1750221F908C9001A0450 /* DefineVC.swift */; };
 		71D1750521F90B68001A0450 /* DetailBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1750421F90B68001A0450 /* DetailBorderView.swift */; };
+		71FBE923220BF55C008555A5 /* ImproveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FBE922220BF55C008555A5 /* ImproveVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		71D1750021F9049B001A0450 /* ProcessButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessButton.swift; sourceTree = "<group>"; };
 		71D1750221F908C9001A0450 /* DefineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefineVC.swift; sourceTree = "<group>"; };
 		71D1750421F90B68001A0450 /* DetailBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBorderView.swift; sourceTree = "<group>"; };
+		71FBE922220BF55C008555A5 /* ImproveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImproveVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				71D1750221F908C9001A0450 /* DefineVC.swift */,
 				719CF12A21F95BC300EBC84E /* MeasureVC.swift */,
 				7185530421FB39450027458C /* AnalyzeVC.swift */,
+				71FBE922220BF55C008555A5 /* ImproveVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				71D174FF21F903DC001A0450 /* CreatorLabel.swift in Sources */,
 				71D1750521F90B68001A0450 /* DetailBorderView.swift in Sources */,
 				71D1750121F9049B001A0450 /* ProcessButton.swift in Sources */,
+				71FBE923220BF55C008555A5 /* ImproveVC.swift in Sources */,
 				719CF12B21F95BC300EBC84E /* MeasureVC.swift in Sources */,
 				71D174E521F8DF0D001A0450 /* AppDelegate.swift in Sources */,
 				7185530521FB39450027458C /* AnalyzeVC.swift in Sources */,
