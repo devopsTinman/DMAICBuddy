@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713ADDA7220CC9FB004EFADB /* ControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713ADDA6220CC9FB004EFADB /* ControlVC.swift */; };
 		7185530521FB39450027458C /* AnalyzeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7185530421FB39450027458C /* AnalyzeVC.swift */; };
 		719CF12B21F95BC300EBC84E /* MeasureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CF12A21F95BC300EBC84E /* MeasureVC.swift */; };
 		71D174E521F8DF0D001A0450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D174E421F8DF0D001A0450 /* AppDelegate.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		713ADDA6220CC9FB004EFADB /* ControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlVC.swift; sourceTree = "<group>"; };
 		7185530421FB39450027458C /* AnalyzeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeVC.swift; sourceTree = "<group>"; };
 		719CF12A21F95BC300EBC84E /* MeasureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureVC.swift; sourceTree = "<group>"; };
 		71D174E121F8DF0D001A0450 /* DMAICBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMAICBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,7 @@
 				719CF12A21F95BC300EBC84E /* MeasureVC.swift */,
 				7185530421FB39450027458C /* AnalyzeVC.swift */,
 				71FBE922220BF55C008555A5 /* ImproveVC.swift */,
+				713ADDA6220CC9FB004EFADB /* ControlVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713ADDA7220CC9FB004EFADB /* ControlVC.swift in Sources */,
 				71D174FD21F8E609001A0450 /* HeaderLabel.swift in Sources */,
 				71D1750321F908C9001A0450 /* DefineVC.swift in Sources */,
 				71D174FF21F903DC001A0450 /* CreatorLabel.swift in Sources */,
