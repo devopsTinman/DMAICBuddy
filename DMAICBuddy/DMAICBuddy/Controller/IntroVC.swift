@@ -16,6 +16,30 @@ class IntroVC: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        
+        if segue.destination is DefineVC
+        {
+            let vc = segue.destination as? DefineVC
+            switch segue.identifier {
+            case "DefineVC":
+                vc?.stageName = "DEFINE"
+            case "MeasureVC":
+                vc?.stageName = "MEASURE"
+            case "AnalyzeVC":
+                vc?.stageName = "ANALYZE"
+            case "ImproveVC":
+                vc?.stageName = "IMPROVE"
+            case "ControlVC":
+                vc?.stageName = "CONTROL"
+            default:
+                vc?.stageName = "DEFINE"
+            }
+            
+            
+        }
+
+    }
     
 }

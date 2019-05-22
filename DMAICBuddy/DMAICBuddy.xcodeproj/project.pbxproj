@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		713ADDA7220CC9FB004EFADB /* ControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713ADDA6220CC9FB004EFADB /* ControlVC.swift */; };
-		7185530521FB39450027458C /* AnalyzeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7185530421FB39450027458C /* AnalyzeVC.swift */; };
-		719CF12B21F95BC300EBC84E /* MeasureVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719CF12A21F95BC300EBC84E /* MeasureVC.swift */; };
+		7158CACA22246F5700519B10 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7158CAC922246F5700519B10 /* Constants.swift */; };
+		71666BDA222092F8003D29FA /* StepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71666BD9222092F8003D29FA /* StepCell.swift */; };
+		71A2BE43221F79C500F304CE /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2BE42221F79C500F304CE /* Tool.swift */; };
+		71A2BE45221F7A2300F304CE /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2BE44221F7A2300F304CE /* DataService.swift */; };
+		71A2BE47221F82BF00F304CE /* ToolCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2BE46221F82BF00F304CE /* ToolCell.swift */; };
+		71A2BE492220105800F304CE /* Stage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2BE482220105800F304CE /* Stage.swift */; };
+		71A2BE4B2220115C00F304CE /* Step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2BE4A2220115C00F304CE /* Step.swift */; };
+		71A2BE4D222011D200F304CE /* Prose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A2BE4C222011D200F304CE /* Prose.swift */; };
 		71D174E521F8DF0D001A0450 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D174E421F8DF0D001A0450 /* AppDelegate.swift */; };
 		71D174EA21F8DF0D001A0450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71D174E821F8DF0D001A0450 /* Main.storyboard */; };
 		71D174EC21F8DF0D001A0450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71D174EB21F8DF0D001A0450 /* Assets.xcassets */; };
@@ -20,13 +25,18 @@
 		71D1750121F9049B001A0450 /* ProcessButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1750021F9049B001A0450 /* ProcessButton.swift */; };
 		71D1750321F908C9001A0450 /* DefineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1750221F908C9001A0450 /* DefineVC.swift */; };
 		71D1750521F90B68001A0450 /* DetailBorderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71D1750421F90B68001A0450 /* DetailBorderView.swift */; };
-		71FBE923220BF55C008555A5 /* ImproveVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FBE922220BF55C008555A5 /* ImproveVC.swift */; };
+		71ECCDB32221B18A00A37928 /* ToolsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ECCDB22221B18A00A37928 /* ToolsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		713ADDA6220CC9FB004EFADB /* ControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlVC.swift; sourceTree = "<group>"; };
-		7185530421FB39450027458C /* AnalyzeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyzeVC.swift; sourceTree = "<group>"; };
-		719CF12A21F95BC300EBC84E /* MeasureVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasureVC.swift; sourceTree = "<group>"; };
+		7158CAC922246F5700519B10 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		71666BD9222092F8003D29FA /* StepCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCell.swift; sourceTree = "<group>"; };
+		71A2BE42221F79C500F304CE /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		71A2BE44221F7A2300F304CE /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		71A2BE46221F82BF00F304CE /* ToolCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolCell.swift; sourceTree = "<group>"; };
+		71A2BE482220105800F304CE /* Stage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stage.swift; sourceTree = "<group>"; };
+		71A2BE4A2220115C00F304CE /* Step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step.swift; sourceTree = "<group>"; };
+		71A2BE4C222011D200F304CE /* Prose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prose.swift; sourceTree = "<group>"; };
 		71D174E121F8DF0D001A0450 /* DMAICBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMAICBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71D174E421F8DF0D001A0450 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71D174E921F8DF0D001A0450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,7 +49,7 @@
 		71D1750021F9049B001A0450 /* ProcessButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessButton.swift; sourceTree = "<group>"; };
 		71D1750221F908C9001A0450 /* DefineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefineVC.swift; sourceTree = "<group>"; };
 		71D1750421F90B68001A0450 /* DetailBorderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBorderView.swift; sourceTree = "<group>"; };
-		71FBE922220BF55C008555A5 /* ImproveVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImproveVC.swift; sourceTree = "<group>"; };
+		71ECCDB22221B18A00A37928 /* ToolsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7158CAC822246F4700519B10 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7158CAC922246F5700519B10 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		71D174D821F8DF0D001A0450 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +90,7 @@
 		71D174E321F8DF0D001A0450 /* DMAICBuddy */ = {
 			isa = PBXGroup;
 			children = (
+				7158CAC822246F4700519B10 /* Utilities */,
 				71D174F921F8DF56001A0450 /* Services */,
 				71D174F821F8DF3A001A0450 /* View */,
 				71D174F721F8DF35001A0450 /* Model */,
@@ -90,10 +109,7 @@
 			children = (
 				71D174FA21F8E09C001A0450 /* IntroVC.swift */,
 				71D1750221F908C9001A0450 /* DefineVC.swift */,
-				719CF12A21F95BC300EBC84E /* MeasureVC.swift */,
-				7185530421FB39450027458C /* AnalyzeVC.swift */,
-				71FBE922220BF55C008555A5 /* ImproveVC.swift */,
-				713ADDA6220CC9FB004EFADB /* ControlVC.swift */,
+				71ECCDB22221B18A00A37928 /* ToolsVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -101,6 +117,10 @@
 		71D174F721F8DF35001A0450 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				71A2BE42221F79C500F304CE /* Tool.swift */,
+				71A2BE482220105800F304CE /* Stage.swift */,
+				71A2BE4A2220115C00F304CE /* Step.swift */,
+				71A2BE4C222011D200F304CE /* Prose.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -112,6 +132,8 @@
 				71D174FE21F903DC001A0450 /* CreatorLabel.swift */,
 				71D1750021F9049B001A0450 /* ProcessButton.swift */,
 				71D1750421F90B68001A0450 /* DetailBorderView.swift */,
+				71A2BE46221F82BF00F304CE /* ToolCell.swift */,
+				71666BD9222092F8003D29FA /* StepCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -119,6 +141,7 @@
 		71D174F921F8DF56001A0450 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				71A2BE44221F7A2300F304CE /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -195,16 +218,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				713ADDA7220CC9FB004EFADB /* ControlVC.swift in Sources */,
+				71A2BE45221F7A2300F304CE /* DataService.swift in Sources */,
+				7158CACA22246F5700519B10 /* Constants.swift in Sources */,
 				71D174FD21F8E609001A0450 /* HeaderLabel.swift in Sources */,
+				71666BDA222092F8003D29FA /* StepCell.swift in Sources */,
 				71D1750321F908C9001A0450 /* DefineVC.swift in Sources */,
+				71A2BE43221F79C500F304CE /* Tool.swift in Sources */,
 				71D174FF21F903DC001A0450 /* CreatorLabel.swift in Sources */,
+				71ECCDB32221B18A00A37928 /* ToolsVC.swift in Sources */,
 				71D1750521F90B68001A0450 /* DetailBorderView.swift in Sources */,
 				71D1750121F9049B001A0450 /* ProcessButton.swift in Sources */,
-				71FBE923220BF55C008555A5 /* ImproveVC.swift in Sources */,
-				719CF12B21F95BC300EBC84E /* MeasureVC.swift in Sources */,
+				71A2BE4D222011D200F304CE /* Prose.swift in Sources */,
+				71A2BE492220105800F304CE /* Stage.swift in Sources */,
+				71A2BE4B2220115C00F304CE /* Step.swift in Sources */,
 				71D174E521F8DF0D001A0450 /* AppDelegate.swift in Sources */,
-				7185530521FB39450027458C /* AnalyzeVC.swift in Sources */,
+				71A2BE47221F82BF00F304CE /* ToolCell.swift in Sources */,
 				71D174FB21F8E09C001A0450 /* IntroVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -346,7 +374,7 @@
 				DEVELOPMENT_TEAM = 457T53625V;
 				INFOPLIST_FILE = DMAICBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.allbeelean.DMAICBuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.allbeelean.dmaic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -361,7 +389,7 @@
 				DEVELOPMENT_TEAM = 457T53625V;
 				INFOPLIST_FILE = DMAICBuddy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.allbeelean.DMAICBuddy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.allbeelean.dmaic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
